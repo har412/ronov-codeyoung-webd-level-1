@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            display: flex;
+            width: 50%;
+            flex-direction: column;
+          
+            background-color: aqua;
+            box-shadow: 0px 0px 10px 0px;
+        }
+        input{
+            display: block;
+            margin:10px 2px;
+            padding: 10px 10px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="box">
+        <h1>Contact Us</h1>
+        <form action="">
+            <input type="text" placeholder="Name"> 
+            <input type="text" placeholder="Email"> 
+            <input type="number" placeholder="Mob Number">
+            <textarea name="description" id="description" cols="30" rows="10" placeholder="Write about what you need"></textarea>
+
+        </form>
+    </div>
+
+</body>
+</html>

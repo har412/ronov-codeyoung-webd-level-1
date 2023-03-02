@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    
+<style>
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    input{
+        padding:10px;
+        margin:10px 0px;
+    }
+    textarea{
+        height: 100px;
+    }
+</style>
+</head>
+<body>
+    
+<h1>Forms</h1>
+<!-- 
+action ==> used to specify the path of the file in which data is shared.
+method ==> used to specify that either its a get/post request.
+ -->
+
+<form action="backend.js" method="post/get">
+
+<input type="text" placeholder="Write your name" required>
+<input type="email" placeholder="Write your Email" required>
+<input type="number" placeholder="Enter you contact number"                                                                                                s>
+<textarea placeholder="Enter the details"></textarea>
+<input type="submit" value="Submit Message">
+</form>
+
+</body>
+</html>
